@@ -1,0 +1,27 @@
+# Qt Creator user-specific
+*.pro.user
+*.pro.user.*
+.qtcreator/
+
+# qmake / build output
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+debug/
+release/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# clangd cache
+.qtc_clangd/
+.cache/
